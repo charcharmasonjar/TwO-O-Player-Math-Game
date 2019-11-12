@@ -11,10 +11,7 @@ The game doesn’t end until one of the players loses all their lives. At this p
 ## Tasks
 ### Task 1: Extract Nouns for Classes
 Read the description above again and extract / write down the nouns that you feel could make for important entities (manifested in the form of classes) to contain (encapsulate) logic as part of this app.
-- Player
-- Game
-- Turn
-- Question
+
 
 
 ### Task 2: Write their roles
@@ -35,28 +32,3 @@ Furthermore:
 - Which class should manage who the current_player is?
 - Which class(es) will contain user I/O and which will not have any?
 
-#### Player
-- initialized with three lives
-- initialized with player number (either one or two)
-- method to update the number of lives 
-
-#### Game
-- initialized with turn set to 1
-- creates two players (player one and two)
-- keeps track of turn 
-- method to start question 
-#### Turn
-#### Question
-
-##### Steps 
-- file is run 
-- create two players (player 1 and 2), each of whom have three lives 
-- set the turn to player one
-- output "new turn"
-- output question using two random numbers between one and ten
-- receive input from the command line
-- output whether or not the answer was correct
-- if incorrect, decrease the number of lives of that player by one
-- if number of lives is 0, output final score and exit game
-- if not, output the updated scores of both players
-- switch the turn to player two 
